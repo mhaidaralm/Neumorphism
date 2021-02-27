@@ -17,16 +17,15 @@ body
 .container
 {
     position: relative;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    flex-wrap: wrap;
-    width: 1100px;
+    padding: 10px;
 }
 .container .card
 {
+    position: relative;
+    float: left;
+    margin: 15px;
     width: 320px;
-    margin: 20px;
+    margin: 25px;
     padding: 40px 30px;
     border-radius: 50px;
     background: #e0e0e0;
@@ -77,8 +76,8 @@ body
     color: #001f3f;
     font-size: 16px;
     text-decoration: none;
-    box-shadow:  20px 20px 60px #bebebe,
-                 -20px -20px 60px #ffffff;
+    box-shadow:  10px 10px 30px #bebebe,
+                 -10px -10px 30px #ffffff;
 }
 .container .card .contentBx a:hover
 {
