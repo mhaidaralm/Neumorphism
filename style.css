@@ -1,4 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
 *
 {
     margin: 0;
@@ -6,7 +9,82 @@
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
 }
-body
+
+
+
+.top
+{
+    min-height: 100vh;
+    background: #e0e0e0;
+}
+
+.top .left
+{
+    width: 50%;
+    float: left;
+    padding-left: 260px;
+    padding-top: 20rem;
+}
+
+.top .left h2
+{
+    margin-top: 5px;
+    font-family: 'Roboto', sans-serif;
+    color:#001f3f;
+    font-weight: 800;
+    font-size: 3em;
+    letter-spacing: 2px;
+}
+
+.top .left p
+{
+    margin-top: 40px;
+    padding-right: 20px;
+    margin-bottom: 10px;
+    text-align: justify;
+    color: #001f3f;
+    font-weight: 500;
+}
+
+.top .left a
+{
+    display: inline-block;
+    padding: 10px 30px;
+    margin-top: 30px;
+    border-radius: 10px;
+    color: #3b3d3f;
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+    box-shadow:  10px 10px 30px #bebebe,
+                 -10px -10px 30px #ffffff;
+}
+.top .left a:hover
+{
+    box-shadow: inset 10px 10px 30px #bebebe,
+                inset -10px -10px 30px #ffffff;
+}
+
+
+.top .left .trial
+{
+    margin-top: 25px;
+    margin-bottom: 10px;
+    text-align: justify;
+    color: #b4aeae;
+    font-weight: 600;
+}
+
+.top .right
+{   
+    width: 50%;
+    float: right;
+    padding-right: 240px;
+    padding-top: 10rem;
+    padding-left: 5rem;
+}
+
+.mid
 {
     display: flex;
     justify-content: center;
@@ -14,12 +92,12 @@ body
     min-height: 100vh;
     background: #e0e0e0;
 }
-.container
+.mid .container
 {
     position: relative;
     padding: 10px;
 }
-.container .card
+.mid .container .card
 {
     position: relative;
     float: left;
@@ -32,34 +110,34 @@ body
     box-shadow:  20px 20px 60px #bebebe,
                  -20px -20px 60px #ffffff;
 }
-.container .card:hover
+.mid .container .card:hover
 {
     box-shadow: inset 20px 20px 60px #bebebe,
                 inset -20px -20px 60px #ffffff;
 }
-.container .card .imgBx
+.mid .container .card .imgBx
 {
     position: relative;
     text-align: center;
 }
-.container .card .imgBx img
+.mid .container .card .imgBx img
 {
     max-width: 120px;
 }
-.container .card .contentBx
+.mid .container .card .contentBx
 {
     position: relative;
     margin-top: 20px;
     text-align: center;
 }
-.container .card .contentBx h2
+.mid .container .card .contentBx h2
 {
     color:#001f3f;
     font-weight: 800;
     font-size: 1.4em;
     letter-spacing: 2px;
 }
-.container .card .contentBx p
+.mid .container .card .contentBx p
 {
     text-indent: 2em;
     margin-top: 10px;
@@ -67,7 +145,7 @@ body
     text-align: justify;
     color: #001f3f;
 }
-.container .card .contentBx a
+.mid .container .card .contentBx a
 {
     display: inline-block;
     padding: 10px 20px;
@@ -79,7 +157,7 @@ body
     box-shadow:  10px 10px 30px #bebebe,
                  -10px -10px 30px #ffffff;
 }
-.container .card .contentBx a:hover
+.mid .container .card .contentBx a:hover
 {
     box-shadow: inset 10px 10px 30px #bebebe,
                 inset -10px -10px 30px #ffffff;
