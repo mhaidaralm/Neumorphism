@@ -43,6 +43,10 @@ nav{
     text-decoration: none;
 }
 
+.nav-links a:hover{
+    color: #ffffff;
+}
+
 .nav-links li{
     list-style: none;
 }
@@ -196,4 +200,45 @@ nav{
 {
     box-shadow: inset 10px 10px 30px #bebebe,
                 inset -10px -10px 30px #ffffff;
+}
+
+.services .aboutleft
+{
+    width: 50%;
+    float: left;
+    padding-left: 280px;
+    padding-top: 10rem;
+    min-height: 80vh;
+    background: #e0e0e0;
+}
+
+.services .aboutleft .short
+{
+    padding-left: 125px;
+    font-weight: 600;
+    font-size: 20px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: rgb(151, 158, 165);
+}
+
+.services .aboutleft .big
+{
+    color: #3b3d3f;
+    padding-top: 2rem;
+    padding-left: 125px;
+    font-size: 40px;
+    letter-spacing: 3px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.services .aboutright
+{
+    width: 50%;
+    float: right;
+    text-align: justify;
+    padding-right: 370px;
+    padding-top: 10rem;
+    min-height: 80vh;
+    background: #e0e0e0;
 }
