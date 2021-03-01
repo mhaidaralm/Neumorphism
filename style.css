@@ -212,6 +212,7 @@ nav{
     float: left;
     padding-left: 280px;
     padding-top: 10rem;
+    padding-bottom: 10rem;
     min-height: 80vh;
     background: #e0e0e0;
 }
@@ -241,14 +242,9 @@ nav{
     width: 50%;
     float: right;
     text-align: justify;
-    padding-right: 370px;
+    padding-right: 390px;
     padding-top: 10rem;
+    padding-bottom: 10rem;
     min-height: 80vh;
-    background: #e0e0e0;
-}
-
-.aw
-{
-    min-height: 100vh;
     background: #e0e0e0;
 }
