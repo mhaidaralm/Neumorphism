@@ -7,5 +7,4 @@ Whoops, it isn't responsive yet :( and still under maintenance.
 
 Live demo here: https://mhaidaralm.github.io/Neumorphism/
 
-Hope you enjoy it! :)))
-Thanks for watching!
+Hope you enjoy it! :D
