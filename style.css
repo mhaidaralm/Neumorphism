@@ -51,6 +51,8 @@ nav{
     list-style: none;
 }
 
+/* start of the card*/
+
 .top
 {
     min-height: 100vh;
@@ -202,6 +204,8 @@ nav{
                 inset -10px -10px 30px #ffffff;
 }
 
+/* End of the card*/
+
 .services .aboutleft
 {
     width: 50%;
@@ -240,5 +244,11 @@ nav{
     padding-right: 370px;
     padding-top: 10rem;
     min-height: 80vh;
+    background: #e0e0e0;
+}
+
+.aw
+{
+    min-height: 100vh;
     background: #e0e0e0;
 }
