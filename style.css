@@ -102,8 +102,10 @@ nav{
 }
 .top .left a:hover
 {
-    box-shadow: inset 10px 10px 30px #bebebe,
-                inset -10px -10px 30px #ffffff;
+    color: #494c4e;
+    font-size: 15px;
+    box-shadow: inset 8px 8px 15px #bebebe,
+                inset -7px -7px 15px #ffffff;
 }
 
 
